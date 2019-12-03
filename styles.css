@@ -21,12 +21,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0.5rem;
 }
 
 .flights {
   text-align: center;
-  margin: 0.4rem;
+  margin: 0.55rem;
   border-bottom: 3px solid #ff5a5f;
 }
 
@@ -35,7 +34,7 @@ body {
 }
 
 .flight-info {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .card {
