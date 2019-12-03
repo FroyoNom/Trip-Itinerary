@@ -17,9 +17,29 @@ body {
   justify-content: center;
 }
 
+.container-flights {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.flights {
+  text-align: center;
+  margin: 0.4rem;
+  border-bottom: 3px solid #ff5a5f;
+}
+
+.flight-number {
+  font-size: 1.5rem;
+}
+
+.flight-info {
+  font-size: 0.8rem;
+}
+
 .card {
-  /* width: 80%; */
-  margin: 1rem;
+  margin: 0.5rem 0.5rem;
   border-radius: 10px;
   border: 3px solid #ff5a5f;
   background: none;
@@ -54,6 +74,14 @@ a {
 @media only screen and (min-width: 768px) {
   .container {
     margin: 0 10rem;
+  }
+
+  .container-flights {
+    margin: 0 10rem;
+  }
+
+  .flight-number {
+    font-size: 1rem;
   }
 
   .all {
